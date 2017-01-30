@@ -1,1 +1,5 @@
-<div>Track list</div>
+<h1>Track list</h1>
+
+<ul>
+    <track-item *ngFor="let track of tracks" [trackInfo]="track"></track-item>
+</ul>
