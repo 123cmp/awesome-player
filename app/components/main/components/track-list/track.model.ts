@@ -4,7 +4,7 @@ export class TrackModel {
     private _length: number = 0;
     private _artist: string = "";
 
-    constructor(id:string = "", name:string = "", length:number = 0, artist:string = "") {
+    constructor(id: string = "", name: string = "", length: number = 0, artist: string = "") {
         this.id = id;
         this.name = name;
         this.length = length;
@@ -22,6 +22,7 @@ export class TrackModel {
     get length(): number {
         return this._length;
     }
+
     set length(value: number) {
         this._length = value;
     }

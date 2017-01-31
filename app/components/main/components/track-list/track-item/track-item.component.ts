@@ -1,11 +1,12 @@
 import { Input, Component } from '@angular/core';
+import { TrackModel } from "../track.model";
 
 @Component({
     selector: 'track-item',
     moduleId: module.id,
-    templateUrl: 'trackItem.component.html',
+    templateUrl: 'track-item.component.html',
 })
 
 export class TrackItemComponent  {
-    @Input() trackInfo;
+    @Input() trackInfo: TrackModel;
 }
