@@ -7,5 +7,9 @@ import { Component } from '@angular/core';
 })
 
 export class AddTrackComponent  {
-
+    trackUrl: string;
+    addTrack(trackUrl: string): void {
+        this.trackUrl = trackUrl;
+        console.log(trackUrl);
+    }
 }

@@ -1,5 +1,5 @@
 <label>
     Track url:
-    <input>
+    <input #trackUrl>
 </label>
-<button>Add</button>
+<button (click)="addTrack(trackUrl.value)">Add</button>
